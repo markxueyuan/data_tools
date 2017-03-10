@@ -30,7 +30,7 @@ def to_date(col, df=stocknames, fmt='%Y-%m-%d'):
 
 to_date('NAMEDT')
 to_date('NAMEENDDT')
-to_date('  Date', df=seo, fmt='%m-%d-%y')
+to_date('  Date', df=seo, fmt='%m/%d/%y')
 
     # Get 6 digit CUSIP
 stocknames['CUSIP_6'] = [i[:6] for i in stocknames['NCUSIP']]
